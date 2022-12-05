@@ -1,0 +1,12 @@
+body {
+  background-color: #1D2D3C;
+}
+
+
+
+.eb-card {
+  background-color: #112030;
+  color: white;
+  width: 250px;
+  flex-wrap: wrap;
+}

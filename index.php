@@ -21,14 +21,15 @@
 <body>
   <div id="app">
     <div class="container">
-      <div class="row">
-        <div v-for="(disc,index) in discs" class="card col-4">
-          <img :src="disc.poster" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p>{{disc.title}}</p>
-            <p>{{disc.author}}</p>
-            <p>{{disc.year}}</p>
-
+      <div class="row ">
+        <div class="col d-flex">
+          <div v-for="(disc,index) in discs" class="eb-card">
+            <img :src="disc.poster" class="card-img-top" alt="disc.title">
+            <div class="card-body text-center ">
+              <p>{{disc.title}}</p>
+              <p>{{disc.author}}</p>
+              <p>{{disc.year}}</p>
+            </div>
           </div>
         </div>
       </div>
